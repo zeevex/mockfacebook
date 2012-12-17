@@ -1,3 +1,17 @@
+## Zeevex specific instructions
+
+**OS X Specific**
+
+* Use homebrew to install python `brew install python; brew linkapps`
+* Be sure to re-exec your shell to have the latest & greatest `exec $SHELL`
+* Run the download.py command using new python `python download.py ACCESS_TOKEN`
+
+**Linux**
+
+JC, you know what to do :)
+
+# Mockfacebook
+
 mockfacebook is a standalone HTTP server that implements Facebook's FQL and Graph API. It's useful for unit and integration testing and limited manual testing.
 
 It includes a download utility that seeds its database with data and schemas from Facebook, which helps it keep up with Facebook API changes. You can also add your own data manually or programmatically.
