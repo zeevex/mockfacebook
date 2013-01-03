@@ -4,7 +4,9 @@
 
 * Use homebrew to install python `brew install python; brew linkapps`
 * Be sure to re-exec your shell to have the latest & greatest `exec $SHELL`
-* Run the download.py command using new python `python download.py ACCESS_TOKEN`
+* Either pull the mockfacebook.db file from zxengine or run the download.py command using new python `python download.py ACCESS_TOKEN`
+* Start the server via `python server.py --p=8090 --me=<FBID>`
+  * Use `100002138772064` if using the mockfacebook.db database from Zeevex, otherwise use whatever ID you please
 
 **Linux**
 
