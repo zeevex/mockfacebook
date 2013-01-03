@@ -2,12 +2,12 @@
 
 **OS X Specific**
 
-* Use homebrew to install python `brew install python; brew linkapps`
-* Be sure to re-exec your shell to have the latest & greatest `exec $SHELL`
-* Either pull the mockfacebook.db file from zxengine or run the download.py command using new python `python download.py ACCESS_TOKEN`
-* Start the server via `python server.py --p=8090 --me=<FBID>`
-  * Use `100002138772064` if using the mockfacebook.db database from Zeevex, otherwise use whatever ID you please
-* To use your own version of mockfacebook, with zxengine, either change the config setting to point to your local instance or simply pass an ENV variable with your url (most likely this would read `MOCKFACEBOOK_HOST=http://localhost:8090 bundle exec rake jenkins`)
+1. Use homebrew to install python `brew install python; brew linkapps`
+1. Be sure to re-exec your shell to have the latest & greatest `exec $SHELL`
+1. Either pull the mockfacebook.db file from zxengine or run the download.py command using new python `python download.py ACCESS_TOKEN`
+1. Start the server via `python server.py --p=8090 --me=<FBID>`
+    * Use `100002138772064` if using the mockfacebook.db database from Zeevex, otherwise use whatever ID you please
+1. To use your own version of mockfacebook, with zxengine, either change the config setting to point to your local instance or simply pass an ENV variable with your url (most likely this would read `MOCKFACEBOOK_HOST=http://localhost:8090 bundle exec rake jenkins`)
 
 **Linux**
 
