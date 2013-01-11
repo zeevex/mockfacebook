@@ -1,6 +1,6 @@
 ## Zeevex specific instructions
 
-**OS X Specific**
+### OS X Specific
 
 1. Use homebrew to install python `brew install python; brew linkapps`
 1. Be sure to re-exec your shell to have the latest & greatest `exec $SHELL`
@@ -9,9 +9,17 @@
     * Use `100002138772064` if using the mockfacebook.db database from Zeevex, otherwise use whatever ID you please.
 1. To use your own version of mockfacebook, with zxengine, either change the config setting to point to your local instance or simply pass an ENV variable with your url (most likely this would read `MOCKFACEBOOK_HOST=http://localhost:8090 bundle exec rake jenkins`)
 
-**Linux**
+### Linux
 
 JC, you know what to do :)
+
+### Using
+
+- Mockfacebook lives on zxdev.zeevex.net
+- Mockfacebook is monitored by `monit`. Use it to start/stop/restart/monitor mockfacebook
+- Whenever we change the db file (updated information for our 'fake graph', be sure to also restart the process.
+
+* * *
 
 # Mockfacebook
 
